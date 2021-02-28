@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-wrap {
+    border: 2px solid #ffe609;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(243, 242, 242, 0.904);
+    padding: 5px;
+    overflow: hidden;
+}
+.button-wrap {
+    width: 200px;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0 0 600px 9px #383a19;
+    border-radius: 30px;
+}
+.togglebtn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #fcd707;
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icons {
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img {
+    width: 30px ;
+    cursor: pointer;
+}
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit {
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:  #fcd707;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.titlebox {
+    width: 50%;
+    padding: 5px 50px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background:  #f5f4f3;
+    border: 3px solid #fcd707;
+    outline: none;
+    border-radius: 10px;
+
+
+
+}
+.checkbox {
+    margin: 30px 10px 30px 0;
+    
+}
+
+.celltalktop{
+    width: 100%;
+    display: block;
+    margin: auto;
+    outline: none;
+    background:  #ffe609;
+    text-align: center;
+   
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login {
+    left: 50px;
+}
+#register {
+    left: 450px;
+} 

@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-wrap {
+    border: 2px solid #ffe609;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(243, 242, 242, 0.904);
+    padding: 5px;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+}
+.content {
+    display: inline-block;
+    vertical-align: middle
+}
+.blank {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle
+}
+
+.celltalktop{
+    width: 100%;
+    padding: auto;
+    display: block;
+    margin: auto;
+    outline: none;
+    background:  #ffe609;
+    text-align: center;
+   
+}
+
+.celltalktop2{
+    width: 50%;
+    padding: auto;
+    display: block;
+    margin: auto;
+    outline: none;
+    background:  #ffe609;
+    text-align: center;
+   
+}
+
+.tablewrap{
+    border-color: #fcd707;
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+    border: 1px;
+}
+
+.end{
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: #fcd707;
+    cursor: pointer;
+    margin:0%;
+    margin-bottom: 20%;
+    border-radius: 10px;
+}
+
+.titlebox {
+    width: 50%;
+    padding: 5px 50px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background:  #f5f4f3;
+    border: 3px solid #fcd707;
+    outline: none;
+    border-radius: 10px;
+
+}
+.profileblock {
+    position: relative;
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+    left: 20%;
+    display: block;
+    text-align: center;
+    background:  #f5f4f3;
+    border: 3px solid #fcd707;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+.menubrother{
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 1%
+}
+
+.blockbtn{
+    width: 300px;
+    height: 150px;
+    border-color: #fcd707;
+    margin:0% 7%;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.menuparent{
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    
+    
+}
+
+.make {
+    border: none;
+    background: #fcd707;
+    border-radius: 10px;
+    width: 20%;
+    margin: 0% 75%;
+    padding: 2px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.back {
+    border: none;
+    background:  #fcd707;
+    border-radius: 10px;
+    width: 20%;
+    margin:0% 1%;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.menu1 {
+    border: none;
+    background:  #fcd707;
+    border-radius: 10px;
+    width:20%;
+    margin:0% 1%;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.menu2{
+
+    border: none;
+    background:  #fcd707;
+    border-radius: 10px;
+    width:20%;
+    margin:0% 25%;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.menu3{
+    border: none;
+    background:  #fcd707;
+    border-radius: 10px;
+    width:20%;
+    margin:0% 50%;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.menu4{
+    border: none;
+    background:  #fcd707;
+    border-radius: 10px;
+    width:20%;
+    margin:0% 75%;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.rank_school{
+    border: none;
+    background:  #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    width: 40%;
+    margin: 15px 3%;
+    padding: 20px;
+    box-sizing : border-box;
+    
+}
+
+.rank_log{
+    border: none;
+    background:  #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    width:50%;
+    margin: 15px 45%;
+    padding: 20px;
+    box-sizing : border-box;
+}
+
+.rank_box{
+    width: 99%;
+    height: 20%;
+    position: relative;
+    margin: 0% auto;
+    background: #fcd707;
+    overflow: hidden;
+
+}
+.midbutton{
+    width: 40%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto;
+    background:  #fcd707;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
